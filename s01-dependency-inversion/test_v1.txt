@@ -1,0 +1,1 @@
+{"msg":"This is a message again","timestamp":{"minute":53,"second":45,"year":2020,"month":"AUGUST","dayOfMonth":21,"dayOfWeek":"FRIDAY","dayOfYear":234,"monthValue":8,"nano":600000000,"hour":15,"chronology":{"id":"ISO","calendarType":"iso8601"}}}
