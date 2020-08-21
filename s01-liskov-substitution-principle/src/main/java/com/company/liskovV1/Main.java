@@ -1,4 +1,4 @@
-package com.company.liskov_1;
+package com.company.liskovV1;
 
 public class Main {
 

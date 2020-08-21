@@ -1,23 +1,18 @@
-package com.company.openclose;
+package com.company.openclosev2;
 
-import java.util.List;
 
-public class PhoneSubscriber {
+public abstract class SubscriberV2 {
 
-    private Long subscriberId;
+	protected Long subscriberId;
 
-    private String address;
+    protected String address;
 
-    private Long phoneNumber;
+    protected Long phoneNumber;
 
-    private int baseRate;
-
-    public double calculateBill() {
-        List<CallHistory.Call> sessions = CallHistory.getCurrentCalls(subscriberId);
-        long totalDuration = sessions.stream().mapToLong(CallHistory.Call::getDuration).sum();
-        return totalDuration*baseRate/100;
-    }
-
+    protected int baseRate;
+    
+    public abstract double calculateBill();
+    
     /**
      * @return the subscriberId
      */

@@ -1,4 +1,4 @@
-package com.company.liskov_2;
+package com.company.liskovV2;
 
 public interface LiskovShape {
 	

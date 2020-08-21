@@ -1,31 +1,16 @@
-package com.company.singleresp;
+package com.company.singlerespv2;
 
-import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.company.singleresp.User;
 
-//Handles incoming JSON requests that work on User resource/entity
-public class UserController {
-	//Store used by controller
-    private Store store = new Store();
-    
-    //Create a new user
-    public String createUser(String userJson) throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        
-        User user = mapper.readValue(userJson, User.class);
+public class UserValidator {
 
-        if(!isValidUser(user)) {
-            return "ERROR";
-        }
-
-        store.store(user);
-        
-        return "SUCCESS";
-    } 
-
+	public boolean validateUser(User user) {
+		return isValidUser(user);
+	}
+	
     //Validates the user object
     private boolean isValidUser(User user) {
         if(!isPresent(user.getName())) {
@@ -64,4 +49,5 @@ public class UserController {
         return matcher.find();
     }
 
+	
 }
