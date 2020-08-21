@@ -1,11 +1,8 @@
-package com.company.liskovV1;
+package com.company.liskov_v1;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
-
-import com.company.liskovV1.Rectangle;
-import com.company.liskovV1.Square;
 
 class RectangleTest {
 

@@ -1,4 +1,4 @@
-package com.company.liskovV1;
+package com.company.liskov_v1;
 
 public class Rectangle {
 

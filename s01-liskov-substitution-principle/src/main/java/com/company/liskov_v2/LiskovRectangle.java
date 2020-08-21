@@ -1,4 +1,4 @@
-package com.company.liskovV2;
+package com.company.liskov_v2;
 
 public class LiskovRectangle implements LiskovShape{
 

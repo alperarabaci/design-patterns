@@ -1,9 +1,10 @@
-package com.company.singlerespv2;
+package com.company.singleresp_v2;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import com.company.singleresp.Main;
+import com.company.singleresp_v2.UserControllerV2;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

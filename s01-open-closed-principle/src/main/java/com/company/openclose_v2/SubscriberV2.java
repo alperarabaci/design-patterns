@@ -1,4 +1,4 @@
-package com.company.openclosev2;
+package com.company.openclose_v2;
 
 
 public abstract class SubscriberV2 {

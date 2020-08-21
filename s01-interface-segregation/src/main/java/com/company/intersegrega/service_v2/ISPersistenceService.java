@@ -1,4 +1,4 @@
-package com.company.intersegrega.servicev2;
+package com.company.intersegrega.service_v2;
 
 import java.util.List;
 

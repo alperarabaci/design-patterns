@@ -1,4 +1,4 @@
-package com.company.singlerespv2;
+package com.company.singleresp_v2;
 
 import java.io.IOException;
 
