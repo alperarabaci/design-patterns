@@ -13,7 +13,6 @@ class UserControllerTest {
 		controller = new UserController();
 	}
 	
-	
 	@Test
 	public void testCreateUser_validUserJson() throws Exception {
 		UserController controller = new UserController();
