@@ -4,6 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+/**
+ * https://www.baeldung.com/java-bridge-pattern
+ * @author alper
+ *
+ */
 class ShapeTest {
 
 	@Test
