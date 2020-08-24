@@ -12,7 +12,13 @@ public class Main {
 		String card = designer.designCard(adapter);
 		System.out.println(card);
 		/** Using Object Adapter **/
+		System.out.println("----- ----- ----- -----");
 		
+		Employee employee = new Employee();
+		populateEmployeeData(employee);
+		EmployeeObjectAdapter adapterObject = new EmployeeObjectAdapter(employee);
+		String cardObject = designer.designCard(adapterObject);
+		System.out.println(cardObject);
 	}
 
 	private static void populateEmployeeData(Employee employee) {
