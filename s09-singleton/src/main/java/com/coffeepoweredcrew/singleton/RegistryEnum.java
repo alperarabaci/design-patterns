@@ -7,7 +7,7 @@ package com.coffeepoweredcrew.singleton;
  */
 public enum RegistryEnum {
 	
-	INSTANCE
+	INSTANCE;
 	
 	public void getConfiguration() {
 		 
