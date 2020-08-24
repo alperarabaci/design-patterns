@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.bridge;
+package com.coffeepoweredcrew.bridge.e1;
 
 //This is the abstraction. 
 //It represents a First in First Out collection

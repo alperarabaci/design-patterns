@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.bridge;
+package com.coffeepoweredcrew.bridge.e1;
 
 //A refined abstraction.
 public class Queue<T> implements FifoCollection<T>{

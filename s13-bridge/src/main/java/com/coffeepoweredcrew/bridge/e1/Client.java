@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.bridge;
+package com.coffeepoweredcrew.bridge.e1;
 
 public class Client {
 
