@@ -5,7 +5,12 @@ public class Main {
 	public static void main(String[] args) {
 		/** Using Class/Two-way adapter **/ 
 		
+		EmployeeClassAdapter adapter = new EmployeeClassAdapter();
+		populateEmployeeData(adapter);
+		BusinessCardDesigner designer = new BusinessCardDesigner();
 		
+		String card = designer.designCard(adapter);
+		System.out.println(card);
 		/** Using Object Adapter **/
 		
 	}
