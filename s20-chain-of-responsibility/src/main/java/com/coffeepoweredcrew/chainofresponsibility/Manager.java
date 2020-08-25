@@ -1,7 +1,7 @@
 package com.coffeepoweredcrew.chainofresponsibility;
 //A concrete handler
 
-/*public class Manager extends Employee {
+public class Manager extends Employee {
 
 	public Manager(LeaveApprover nextApprover) {
 		super("Manager", nextApprover);
@@ -22,4 +22,4 @@ package com.coffeepoweredcrew.chainofresponsibility;
 		return false;
 	}
 	
-}*/
+}

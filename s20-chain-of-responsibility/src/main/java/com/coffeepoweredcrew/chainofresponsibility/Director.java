@@ -2,7 +2,7 @@ package com.coffeepoweredcrew.chainofresponsibility;
 
 import com.coffeepoweredcrew.chainofresponsibility.LeaveApplication.Type;
 //A concrete handler
-/*public class Director extends Employee {
+public class Director extends Employee {
 
 	public Director(LeaveApprover nextApprover) {
 		super("Director", nextApprover);
@@ -17,4 +17,4 @@ import com.coffeepoweredcrew.chainofresponsibility.LeaveApplication.Type;
 		return false;
 	}
 	
-}*/
+}
