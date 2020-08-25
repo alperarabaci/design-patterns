@@ -1,10 +1,10 @@
-package com.coffeepoweredcrew.proxy.dynamic;
+package com.coffeepoweredcrew.proxy.dynamic_proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
-import com.coffeepoweredcrew.proxy.BitmapImage;
-import com.coffeepoweredcrew.proxy.Image;
+import com.coffeepoweredcrew.proxy.static_proxy.BitmapImage;
+import com.coffeepoweredcrew.proxy.static_proxy.Image;
 
 import javafx.geometry.Point2D;
 

@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.proxy;
+package com.coffeepoweredcrew.proxy.static_proxy;
 
 import javafx.geometry.Point2D;
 
