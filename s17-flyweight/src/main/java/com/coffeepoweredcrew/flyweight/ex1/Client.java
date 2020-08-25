@@ -1,6 +1,6 @@
-package com.coffeepoweredcrew.flyweight;
+package com.coffeepoweredcrew.flyweight.ex1;
 
-import com.coffeepoweredcrew.flyweight.ErrorMessageFactory.ErrorType;
+import com.coffeepoweredcrew.flyweight.ex1.ErrorMessageFactory.ErrorType;
 
 public class Client {
 

@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.flyweight;
+package com.coffeepoweredcrew.flyweight.ex1;
 
 import java.util.HashMap;
 import java.util.Map;

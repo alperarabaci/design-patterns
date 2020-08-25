@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.flyweight;
+package com.coffeepoweredcrew.flyweight.ex1;
 
 //A concrete Flyweight. Instance is shared
 public class SystemErrorMessage implements ErrorMessage {
