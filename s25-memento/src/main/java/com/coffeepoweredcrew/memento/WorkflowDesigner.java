@@ -13,10 +13,18 @@ public class WorkflowDesigner {
     }
 
     public Memento getMemento() {
-       return null;
+    	if(workflow==null) {
+    		return new Memento();
+    	}
+       return new Memento(workflow.getSteps(), workflow.getName());
     }
 
     public void setMemento(Memento memento) {
+    	if(memento.isEmpty()) {
+    		this.workflow = null;
+    	} else {
+    		this.workflow = new Workflow(memento.getName(), memento.getSteps());
+    	}
     }
 
     public void addStep(String step) {
@@ -32,6 +40,37 @@ public class WorkflowDesigner {
     }
 
     public class Memento {
+    	
+    	private String[] steps;
+    	private String name;
+    	
+    	public Memento() {		
+		}
+    	
+    	public boolean isEmpty() {
+			return this.getSteps()==null && this.getName()==null;
+		}
 
+		private Memento(String[] steps, String name) {
+			this.setSteps(steps);
+			this.setName(name);
+		}
+
+		public String[] getSteps() {
+			return steps;
+		}
+
+		public void setSteps(String[] steps) {
+			this.steps = steps;
+		}
+
+		public String getName() {
+			return name;
+		}
+
+		public void setName(String name) {
+			this.name = name;
+		}
+    	
     }
 }
