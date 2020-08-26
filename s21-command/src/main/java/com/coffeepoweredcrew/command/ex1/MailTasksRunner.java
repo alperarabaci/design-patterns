@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.command;
+package com.coffeepoweredcrew.command.ex1;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -48,7 +48,7 @@ public class MailTasksRunner implements Runnable {
 			}
 			if (cmd == null)
 				return;
-			//cmd.execute();
+			cmd.execute();
 		}
 
 	}

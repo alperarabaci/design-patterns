@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.command;
+package com.coffeepoweredcrew.command.ex1;
 
 //This class is the receiver.
 public class EWSService {
