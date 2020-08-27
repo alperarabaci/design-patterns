@@ -1,0 +1,10 @@
+Order Details
+Order #1001
+Items
+-------------
+Pizza $15.95
+Sandwitch $11.95
+Soda $2.5
+-------------
+Total: $30.4
+END
