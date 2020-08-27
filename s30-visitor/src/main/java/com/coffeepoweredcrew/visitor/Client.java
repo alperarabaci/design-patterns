@@ -5,8 +5,23 @@ import java.util.Random;
 
 public class Client {
 
+
 	public static void main(String[] args) {
+		Employee emps = buildOrganization();
+		Visitor visitor = new PrintVisitor();
 		
+		visitOrgStructure(emps, visitor);
+		System.out.println("***************************************");
+		//Perform a fake appraisal
+		appraisal(emps, new Random(new Date().getTime()));
+		
+		AppraisalVisitor visitor2 = new AppraisalVisitor();
+		//Carry out final appraisal where we consider team performance
+		visitOrgStructure(emps, visitor2);
+		
+		//create new print visitor with final ratings taken from appraisal visitor
+		visitor = new PrintVisitor(visitor2.getFinalRatings());
+		visitOrgStructure(emps, visitor);
 		
 	}
 
@@ -29,5 +44,16 @@ public class Client {
 		return vp;
 	}
 	
+	private static void visitOrgStructure(Employee emp, Visitor visitor) {
+		emp.accept(visitor);
+		emp.getDirectReports().forEach(e->visitOrgStructure(e, visitor));
+	}
+	
+	//This method assigns some random values to performance rating field of employees
+	private static void appraisal(Employee emp, Random random) {
+		int rating = random.nextInt(6);
+		emp.setPerformanceRating(rating < 1 ? 1: rating);
+		emp.getDirectReports().forEach(r -> appraisal(r, random));
+	}
 
 }
