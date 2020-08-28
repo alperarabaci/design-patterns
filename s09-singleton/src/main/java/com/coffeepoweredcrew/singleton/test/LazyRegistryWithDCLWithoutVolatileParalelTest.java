@@ -11,7 +11,11 @@ import java.util.concurrent.Future;
 import com.coffeepoweredcrew.singleton_fake.LazyRegistryWithDCLWithoutVolatile;
 
 /**
- * Result: not fail without volatile with my eclipse heap size (Constant.MAX_POOL:4048)
+ * Result: not fail without volatile with my eclipse heap size (Constant.MAX_POOL:4048)+ machine:
+ * Processor Name:	Intel Core i7
+   Processor Speed:	2,3 GHz
+   Number of Processors:	1
+   Total Number of Cores:	4
  * Check this:
  * https://stackoverflow.com/questions/11639746/what-is-the-point-of-making-the-singleton-instance-volatile-while-using-double-l
  * http://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html
