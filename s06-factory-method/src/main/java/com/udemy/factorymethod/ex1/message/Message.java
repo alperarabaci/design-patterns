@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.factorymethod.message;
+package com.udemy.factorymethod.ex1.message;
 
 /**
  * This class represents interface for our "product" which is a message

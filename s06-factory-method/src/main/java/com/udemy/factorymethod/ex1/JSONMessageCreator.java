@@ -1,7 +1,7 @@
-package com.coffeepoweredcrew.factorymethod;
+package com.udemy.factorymethod.ex1;
 
-import com.coffeepoweredcrew.factorymethod.message.JSONMessage;
-import com.coffeepoweredcrew.factorymethod.message.Message;
+import com.udemy.factorymethod.ex1.message.JSONMessage;
+import com.udemy.factorymethod.ex1.message.Message;
 
 /**
  * Provides implementation for creating JSON messages

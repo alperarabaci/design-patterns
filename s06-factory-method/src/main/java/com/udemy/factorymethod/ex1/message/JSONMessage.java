@@ -1,4 +1,4 @@
-package com.coffeepoweredcrew.factorymethod.message;
+package com.udemy.factorymethod.ex1.message;
 
 public class JSONMessage extends Message {
 

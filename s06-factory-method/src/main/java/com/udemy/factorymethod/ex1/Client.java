@@ -1,6 +1,6 @@
-package com.coffeepoweredcrew.factorymethod;
+package com.udemy.factorymethod.ex1;
 
-import com.coffeepoweredcrew.factorymethod.message.Message;
+import com.udemy.factorymethod.ex1.message.Message;
 
 public class Client {
 
