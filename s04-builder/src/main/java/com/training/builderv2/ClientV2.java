@@ -1,10 +1,10 @@
-package com.cpc.dp.builderv2;
+package com.training.builderv2;
 
 import java.time.LocalDate;
 
-import com.cpc.dp.builder.Address;
-import com.cpc.dp.builder.User;
-import com.cpc.dp.builderv2.UserDtoV2.UserDTOBuilder;
+import com.training.builder.Address;
+import com.training.builder.User;
+import com.training.builderv2.UserDtoV2.UserDTOBuilder;
 
 public class ClientV2 {
 

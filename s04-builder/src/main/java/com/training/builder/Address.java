@@ -1,4 +1,4 @@
-package com.cpc.dp.builder;
+package com.training.builder;
 
 public class Address {
 

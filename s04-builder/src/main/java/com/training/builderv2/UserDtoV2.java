@@ -1,9 +1,9 @@
-package com.cpc.dp.builderv2;
+package com.training.builderv2;
 
 import java.time.LocalDate;
 import java.time.Period;
 
-import com.cpc.dp.builder.Address;
+import com.training.builder.Address;
 
 public class UserDtoV2 {
 	
