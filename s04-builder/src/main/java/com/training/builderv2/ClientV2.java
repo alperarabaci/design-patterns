@@ -19,8 +19,12 @@ public class ClientV2 {
 	 * This method serves the role of director in builder pattern.
 	 */
 	private static UserDtoV2 directBuild(UserDTOBuilder builder, User user) {
-		return builder.withFirstName(user.getFirstName()).withLastName(user.getLastName())
-				.withBirthday(user.getBirthday()).withAddress(user.getAddress()).build();
+		return builder
+				.withFirstName(user.getFirstName())
+				.withLastName(user.getLastName())
+				.withBirthday(user.getBirthday())
+				.withAddress(user.getAddress())
+				.build();
 	}
 
 	/**
